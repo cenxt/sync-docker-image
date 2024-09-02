@@ -39,7 +39,7 @@ jobs:
 
             image=$(echo $line |awk -F '/' '{print $NF}')
             
-            skopeo copy docker://${line}  docker://${{ secrets.ALIYUN_REGISTRY }}/${{ secrets.ALIYUN_NAMESPACE }}/${image}
+            skopeo copy docker://${line}  docker://${{ secrets.ALIYUN_REGISTRY }}/${image}
 
       
         done < docker-images.txt 
