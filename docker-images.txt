@@ -1,10 +1,5 @@
 # 例如 
 # 一行一个
-# nginx:1.14.2
-# alpine
+nginx:1.14.2
 drone/drone:latest
 drone/drone-runner-docker:latest
-jupyter/base-notebook:x86_64-notebook-7.0.6
-drone/git:latest
-alpine/git
-plugins/docker
